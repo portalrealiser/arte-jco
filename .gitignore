@@ -1,0 +1,6 @@
+node_modules/
+public/img/*
+!public/img/.gitkeep
+npm-debug.log*
+.DS_Store
+.env

@@ -1,0 +1,13 @@
+{
+  "name": "arte-jco",
+  "version": "1.0.0",
+  "description": "Gerador de imagem no padrao Print/Feed do Jornal da Cidade Online (substitui a Placid)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "express": "^4.19.2"
+  }
+}

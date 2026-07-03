@@ -1,0 +1,6 @@
+node_modules
+public/img/*
+npm-debug.log
+.git
+.gitignore
+*.md
