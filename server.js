@@ -20,7 +20,7 @@ const { createCanvas, loadImage, registerFont } = require('canvas');
 // ---------- Config ----------
 const PORT = parseInt(process.env.PORT || '3002', 10);
 const PUBLIC_BASE_URL = (process.env.PUBLIC_BASE_URL || `http://localhost:${PORT}`).replace(/\/+$/, '');
-const HANDLE = process.env.HANDLE || '@jonaldacidadeonline';
+const HANDLE = process.env.HANDLE || '@jornaldacidadeonline';
 const JPEG_QUALITY = parseFloat(process.env.JPEG_QUALITY || '0.92');
 const RETENTION_HOURS = parseFloat(process.env.RETENTION_HOURS || '24');
 const RENDER_TOKEN = process.env.RENDER_TOKEN || '';            // se setado, exige Bearer no /render
