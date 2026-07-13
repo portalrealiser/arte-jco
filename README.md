@@ -32,7 +32,7 @@ Canvas 1080×1350 (4:5):
 |--------------------------------|--------------|-----------------------------------------|
 | Chrome (cabeçalho + barra)     | 0–214        | overlay `assets/chrome.png` (fixo)      |
 | Título (auto-fit, caixa alta)  | 226–640      | Roboto 70px base, caixa 960px, centrado |
-| Handle `@jonaldacidadeonline`  | ~688         | cinza, esquerda                         |
+| Handle `@jornaldacidadeonline`  | ~688         | cinza, esquerda                         |
 | Foto                           | 705–1350     | cover-crop da `imagem`                  |
 
 - Fonte do título: **Roboto Regular** (identificada por largura — o padrão do JCO
@@ -46,7 +46,7 @@ Canvas 1080×1350 (4:5):
 |-------------------|--------------------------------|---------------------------------------------|
 | `PORT`            | `3002`                         | porta HTTP                                  |
 | `PUBLIC_BASE_URL` | `http://localhost:PORT`        | base pública p/ montar o `image_url`        |
-| `HANDLE`          | `@jonaldacidadeonline`         | handle exibido na arte                      |
+| `HANDLE`          | `@jornaldacidadeonline`         | handle exibido na arte                      |
 | `JPEG_QUALITY`    | `0.92`                         | qualidade do JPEG (0–1)                     |
 | `RETENTION_HOURS` | `24`                           | apaga imagens geradas mais antigas que isso |
 | `RENDER_TOKEN`    | *(vazio)*                      | se setado, `/render` exige `Authorization: Bearer <token>`. **Recomendado em produção.** |
